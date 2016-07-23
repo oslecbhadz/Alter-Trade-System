@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package alter.trade;
 
 import javafx.application.Application;
@@ -11,10 +6,6 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
-/**
- *
- * @author KLoverated Geek
- */
 public class AlterTrade extends Application {
     
     @Override
@@ -22,12 +13,12 @@ public class AlterTrade extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
         
         Scene scene = new Scene(root);
-        
         stage.setScene(scene);
         stage.setMaximized(true);
         stage.setTitle("Alter Trade System");
         stage.setMinHeight(600);
         stage.setMinWidth(800);
+        
         stage.show();
     }
 
