@@ -10,16 +10,16 @@ public class AlterTrade extends Application {
     
     @Override
     public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("FXMLHomePanel.fxml"));
         
         Scene scene = new Scene(root);
         stage.setScene(scene);
         stage.setMaximized(true);
         stage.setTitle("Alter Trade System");
         stage.setMinHeight(600);
-        stage.setMinWidth(800);
-        
+        stage.setMinWidth(800);      
         stage.show();
+ 
     }
 
     /**

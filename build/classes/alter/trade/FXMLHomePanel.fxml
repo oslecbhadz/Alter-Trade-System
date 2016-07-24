@@ -206,9 +206,9 @@
                               <Font name="Arial" size="26.0" />
                            </font>
                         </PasswordField>
-                        <Button layoutX="70.0" layoutY="301.0" mnemonicParsing="false" onAction="#openAdminPanel" text="LOGIN">
+                        <Button fx:id="btnLogin" layoutX="70.0" layoutY="301.0" mnemonicParsing="false" onAction="#opneAdminPanel" text="LOGIN">
                            <font>
-                              <Font size="20.0" />
+                              <Font name="System Bold" size="20.0" />
                            </font>
                         </Button>
                      </children>
