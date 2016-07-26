@@ -46,7 +46,7 @@ public class FXMLHomeController implements Initializable {
     
     @FXML
     private void setSettingsSection(){
-        settingsSection.toFront();
+        loginSection.toFront();
     }
     
     @FXML
