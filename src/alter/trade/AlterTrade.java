@@ -7,19 +7,19 @@ import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 public class AlterTrade extends Application {
-    
+
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLHomePanel.fxml"));
-        
+
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        stage.setMaximized(true);
+       // stage.setMaximized(true);
         stage.setTitle("Alter Trade System");
         stage.setMinHeight(600);
-        stage.setMinWidth(800);      
+        stage.setMinWidth(800);
         stage.show();
- 
+
     }
 
     /**
@@ -28,5 +28,5 @@ public class AlterTrade extends Application {
     public static void main(String[] args) {
         launch(args);
     }
-    
+
 }

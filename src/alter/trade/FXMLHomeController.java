@@ -59,7 +59,7 @@ public class FXMLHomeController implements Initializable {
         
         Scene scene = new Scene(root);
         stage.setScene(scene);
-        stage.setMaximized(true);
+     //   stage.setMaximized(true);
         stage.setTitle("Admin Panel | Alter Trade System");
         stage.setMinHeight(600);
         stage.setMinWidth(800);      
