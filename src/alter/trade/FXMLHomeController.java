@@ -70,7 +70,6 @@ public class FXMLHomeController implements Initializable {
         stage.setMinHeight(600);
         stage.setMinWidth(800);
         stage.show();
-
     }
 
     @FXML
@@ -83,11 +82,6 @@ public class FXMLHomeController implements Initializable {
         homeSection.toFront();
     }
 
-    //
-    //       D A T A B A S E 
-    //     I N T E R CO U R S E
-    //           D A T A
-    //
     public void mysqlConnect() {
         try {
             conn = Connect.setConnection(conn, "root", "");
