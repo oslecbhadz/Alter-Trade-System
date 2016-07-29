@@ -75,7 +75,6 @@ public class FXMLHomeController implements Initializable {
 
     @FXML
     private void testConnection() throws IOException {
-
         mysqlConnect();
     }
 
@@ -91,7 +90,6 @@ public class FXMLHomeController implements Initializable {
     //
     public void mysqlConnect() {
         try {
-
             conn = Connect.setConnection(conn, "root", "");
             System.out.println("Connected");
         } catch (Exception e) {
